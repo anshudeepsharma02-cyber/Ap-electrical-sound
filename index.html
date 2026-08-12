@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="AP Electrical Sound Sales & Service - Adalpur, Sobh, Barachatti">
+<title>AP Electrical Sound | Sales & Service</title>
+<style>
+:root{--bg:#06070b;--card:#10131b;--text:#f7f7fb;--muted:#aeb4c1;--cyan:#00e5ff;--pink:#ff20c8}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{text-decoration:none;color:inherit}
+nav{position:fixed;top:0;left:0;right:0;z-index:20;padding:14px 5%;display:flex;justify-content:space-between;align-items:center;background:#05060acc;backdrop-filter:blur(14px);border-bottom:1px solid #ffffff10}
+.brand{font-weight:900;letter-spacing:.5px}.brand span{color:var(--cyan)}
+nav .links{display:flex;gap:20px;font-size:14px;color:#ddd}.links a:hover{color:var(--cyan)}
+.hero{min-height:100vh;padding:110px 6% 60px;display:grid;place-items:center;text-align:center;position:relative;overflow:hidden;background:
+linear-gradient(#05060b88,#05060bcc),url("assets/dj-lights.jpg") center/cover fixed}
+.hero:after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 40%,#00e5ff18,transparent 42%),radial-gradient(circle at 20% 20%,#ff20c818,transparent 35%)}
+.hero-content{position:relative;z-index:2;max-width:1000px}
+.badge{display:inline-block;padding:8px 16px;border:1px solid #ffffff2b;border-radius:99px;background:#ffffff0d;backdrop-filter:blur(8px);font-weight:700}
+h1{font-size:clamp(45px,9vw,100px);line-height:.98;margin:22px 0 18px;text-shadow:0 0 35px #00e5ff33}
+h1 span{color:var(--cyan)}.hero p{font-size:clamp(18px,3vw,27px);color:#e1e4eb}.place{font-size:15px!important;color:#bfc5d0!important;margin:12px 0 30px}
+.buttons{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}.btn{padding:13px 22px;border-radius:999px;font-weight:800;transition:.2s}.btn:hover{transform:translateY(-3px)}
+.call{background:#fff;color:#101015}.wa{background:#18d66b;color:#04170c}.more{border:1px solid #ffffff40;background:#ffffff0d}
+section{padding:80px 5%}.container{max-width:1150px;margin:auto}
+.title{text-align:center;font-size:38px;margin-bottom:8px}.sub{text-align:center;color:var(--muted);margin-bottom:38px}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{padding:25px;border:1px solid #ffffff10;border-radius:22px;background:linear-gradient(145deg,#131722,#0b0d13);box-shadow:0 18px 40px #0007}.icon{font-size:38px}.card h3{margin:10px 0 5px}.card p{color:var(--muted);font-size:14px}
+.about{background:#0b0e15}.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center}.about-text{font-size:18px;color:#c8cdd7}.about-panel{padding:30px;border:1px solid #00e5ff33;border-radius:24px;background:linear-gradient(135deg,#00e5ff0d,#ff20c80d)}
+.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.gallery-card{position:relative;overflow:hidden;border-radius:18px;border:1px solid #ffffff12;background:#0c0e14;min-height:230px}.gallery-card img,.gallery-card video{width:100%;height:100%;min-height:230px;object-fit:cover;display:block}.gallery-card figcaption{position:absolute;left:10px;right:10px;bottom:10px;padding:8px 11px;border-radius:10px;background:#000b;backdrop-filter:blur(7px);font-size:13px}
+.upload{margin:25px auto 0;max-width:720px;padding:22px;border:1px dashed #ffffff35;border-radius:20px;text-align:center;background:#ffffff06}.upload label{display:inline-block;padding:12px 18px;border-radius:999px;background:#fff;color:#111;font-weight:800;cursor:pointer;margin-top:12px}.upload input{display:none}.upload small{display:block;color:#999;margin-top:10px}
+#userGallery{margin-top:18px}
+.contact{background:radial-gradient(circle at 50% 0,#25113b,#07080c 55%)}.contact-box{text-align:center;padding:45px 20px;border-radius:28px;border:1px solid #ffffff14;background:#ffffff06}.phone{font-size:clamp(28px,6vw,50px);font-weight:900;color:var(--cyan);margin:10px 0 20px}
+footer{padding:25px;text-align:center;color:#858b97;border-top:1px solid #ffffff10}.float-wa{position:fixed;z-index:30;right:18px;bottom:18px;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:#18d66b;color:#03170b;font-size:27px;font-weight:900;box-shadow:0 10px 30px #0009}
+.booking-note{margin:28px auto 0;max-width:760px;padding:18px 22px;border:1px solid #ffcf3338;border-radius:18px;background:#ffcf330b;text-align:center}.booking-note strong{color:#ffd24a}.booking-note p{color:#c9cdd5;margin-top:4px;font-size:14px}
+@media(max-width:850px){.cards{grid-template-columns:repeat(2,1fr)}.gallery-grid{grid-template-columns:repeat(2,1fr)}.about-grid{grid-template-columns:1fr}.links{display:none!important}}
+@media(max-width:520px){.cards,.gallery-grid{grid-template-columns:1fr}section{padding:60px 16px}.hero{background-attachment:scroll}nav{padding:13px 16px}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="brand">AP <span>Electrical Sound</span></div>
+  <div class="links"><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+</nav>
+
+<header class="hero">
+  <div class="hero-content">
+    <div class="badge">⚡ SALES • SERVICE • SOUND • REPAIRING</div>
+    <h1>AP <span>Electrical Sound</span></h1>
+    <p>DJ Booking • Dance Floor • Sound • Lights • Sales • Service</p>
+    <p class="place">📍 Adalpur, Sobh, Barachatti</p>
+    <div class="buttons">
+      <a class="btn call" href="tel:+917091399782">📞 Call Now</a>
+      <a class="btn wa" href="https://wa.me/917091399782" target="_blank">💬 WhatsApp</a>
+      <a class="btn more" href="#gallery">📸 Gallery</a>
+    </div>
+  </div>
+</header>
+
+<section id="services">
+<div class="container">
+<h2 class="title">हमारी Services</h2><p class="sub">Sound और Electrical काम के लिए सीधे संपर्क करें।</p>
+<div class="cards">
+<div class="card"><div class="icon">🔊</div><h3>Cabinet & Speakers</h3><p>Cabinet, speakers और sound system की sales तथा service.</p></div>
+<div class="card"><div class="icon">🎚️</div><h3>Sound Mixer</h3><p>Sound mixer की sales, setup, repairing और servicing.</p></div>
+<div class="card"><div class="icon">🎤</div><h3>Mic</h3><p>Mic और microphone systems की sales तथा service.</p></div>
+<div class="card"><div class="icon">💡</div><h3>DJ Lights</h3><p>Sharp light, RGB light, Blinder light और Butterfly light.</p></div>
+<div class="card"><div class="icon">🔦</div><h3>Amplifier</h3><p>Amplifier की sales, repairing और complete servicing.</p></div>
+<div class="card"><div class="icon">🎛️</div><h3>DMX Controller</h3><p>DMX controller/code और lighting control equipment की service.</p></div>
+<div class="card"><div class="icon">🔧</div><h3>Voice Coil</h3><p>Voice coil की sales, replacement और repairing service.</p></div>
+<div class="card"><div class="icon">⚙️</div><h3>Sales & Service</h3><p>ऊपर दिए सभी sound और lighting products के लिए Sales + Service.</p></div>
+<div class="card"><div class="icon">🎧</div><h3>DJ Booking</h3><p>Wedding, party, birthday और events के लिए DJ booking उपलब्ध.</p></div>
+<div class="card"><div class="icon">💃</div><h3>Dance Floor Booking</h3><p>Events और functions के लिए premium dance floor booking.</p></div>
+</div>
+<div class="booking-note">
+  <strong>💰 Booking Advance: 50%</strong>
+  <p>DJ Booking और Dance Floor Booking confirm करने के लिए कुल booking amount का 50% advance देना होगा।</p>
+</div>
+</div>
+</section>
+
+<section id="gallery" class="about">
+<div class="container">
+<h2 class="title">Our Gallery</h2>
+<p class="sub">आपकी भेजी हुई photos और videos यहाँ लगाई गई हैं।</p>
+<div class="gallery-grid">
+<figure class="gallery-card"><img src="assets/dj-lights.jpg" alt="DJ lights"><figcaption>DJ / Fan Lights</figcaption></figure>
+<figure class="gallery-card"><img src="assets/generator-1.jpg" alt="Generator"><figcaption>Generator Service</figcaption></figure>
+<figure class="gallery-card"><img src="assets/generator-2.jpg" alt="Generator"><figcaption>Generator Equipment</figcaption></figure>
+<figure class="gallery-card"><img src="assets/generator-3.jpg" alt="Generator"><figcaption>Generator Set</figcaption></figure>
+<figure class="gallery-card"><video controls muted playsinline><source src="assets/dj-video-1.mp4" type="video/mp4"></video><figcaption>DJ Video</figcaption></figure>
+<figure class="gallery-card"><video controls muted playsinline><source src="assets/dj-video-2.mp4" type="video/mp4"></video><figcaption>DJ Video</figcaption></figure>
+</div>
+
+<div class="upload">
+<strong>📸 अपनी नई Photo जोड़ें</strong>
+<p style="color:#aaa;margin-top:5px">नीचे से photo select करें—website पर तुरंत preview दिखाई देगा।</p>
+<label for="photoInput">+ Add Photos</label>
+<input id="photoInput" type="file" accept="image/*" multiple>
+<small>Permanent gallery में लगाने के लिए बाद में photo को <b>assets</b> folder में रखकर HTML में नाम जोड़ें।</small>
+<div id="userGallery" class="gallery-grid"></div>
+</div>
+</div>
+</section>
+
+<section id="about">
+<div class="container about-grid">
+<div><h2 class="title" style="text-align:left">AP Electrical Sound</h2>
+<p class="about-text">Adalpur, Sobh, Barachatti में Sound और Electrical Sales & Service के लिए आपका local business. Cabinet, speakers, sound mixer, mic, sharp light, RGB light, blinder light, butterfly light, amplifier, DMX controller और voice coil की sales एवं service उपलब्ध है।</p></div>
+<div class="about-panel"><h3>📞 Direct Contact</h3><p style="color:#aaa;margin:8px 0 18px">काम या service की जानकारी के लिए Call/WhatsApp करें।</p><a class="btn wa" href="https://wa.me/917091399782" target="_blank">WhatsApp पर बात करें</a></div>
+</div>
+</section>
+
+<section id="contact" class="contact">
+<div class="container"><div class="contact-box">
+<h2 class="title">Contact Us</h2><p>📍 Adalpur, Sobh, Barachatti</p>
+<div class="phone">+91 70913 99782</div>
+<div class="buttons"><a class="btn call" href="tel:+917091399782">📞 Call</a><a class="btn wa" href="https://wa.me/917091399782" target="_blank">💬 WhatsApp</a></div>
+</div></div>
+</section>
+
+<footer>© 2026 AP Electrical Sound Sales & Service • Adalpur, Sobh, Barachatti</footer>
+<a class="float-wa" href="https://wa.me/917091399782" target="_blank" aria-label="WhatsApp">☏</a>
+
+<script>
+const input=document.getElementById('photoInput'), gallery=document.getElementById('userGallery');
+input.addEventListener('change',()=>{
+  [...input.files].forEach(file=>{
+    if(!file.type.startsWith('image/')) return;
+    const url=URL.createObjectURL(file);
+    const figure=document.createElement('figure');
+    figure.className='gallery-card';
+    figure.innerHTML=`<img src="${url}" alt="Uploaded photo"><figcaption>${file.name}</figcaption>`;
+    gallery.appendChild(figure);
+  });
+});
+</script>
+</body>
+</html>
